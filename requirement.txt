@@ -1,0 +1,14 @@
+py-clob-client
+   web3
+   requests
+   python-dotenv
+   schedule
+```
+   - "Commit new file" 클릭
+
+3. **Procfile 추가**
+   - 다시 "Add file" → "Create new file"
+   - 파일명: `Procfile` (확장자 없음!)
+   - 내용:
+```
+   worker: python scheduler.py
